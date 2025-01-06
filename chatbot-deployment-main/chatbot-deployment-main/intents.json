@@ -1,0 +1,239 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! Welcome to our store!",
+        "Hello! How can I assist you today?",
+        "Hi! What can I help you with?",
+        "Greetings! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+      "responses": [
+        "Thanks for visiting! See you next time!",
+        "Have a great day! Come back soon!",
+        "Goodbye! We hope to see you again!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank you so much!"],
+      "responses": [
+        "You're welcome! I'm here to help!",
+        "Anytime! Let me know if you need anything else!",
+        "My pleasure! Enjoy your shopping!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What products do you have?",
+        "Can you show me your items?",
+        "What can I buy?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We offer a variety of products, including electronics, clothing, and home goods.",
+        "Check out our selection of items including gadgets, fashion, and more!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you take PayPal?",
+        "Are cash payments accepted?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, American Express, and PayPal.",
+        "You can pay using most major credit cards or PayPal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "When will my order arrive?",
+        "How long is shipping?",
+        "What is the delivery time?",
+        "Do you offer express shipping?"
+      ],
+      "responses": [
+        "Standard delivery takes 3-5 business days.",
+        "Express shipping options are available for faster delivery."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What is your return policy?",
+        "How do I return an item?",
+        "Can I exchange a product?"
+      ],
+      "responses": [
+        "You can return items within 30 days of purchase for a full refund.",
+        "To return an item, please visit our returns page for instructions."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "How can I track my order?",
+        "What is the status of my order?"
+      ],
+      "responses": [
+        "You can track your order using the tracking link provided in your confirmation email.",
+        "Please provide your order number, and I can help you check the status."
+      ]
+    },
+    {
+      "tag": "customer_inquiry",
+      "patterns": [
+        "Can you help me find something?",
+        "I need assistance with my order.",
+        "I have a question about my purchase.",
+        "How do I contact customer service?"
+      ],
+      "responses": [
+        "I'm here to help! What do you need assistance with?",
+        "You can reach our customer service at [kbbhuvan2003@gmail.com] or through our contact page.",
+        "Please let me know what you need help with, and I'll do my best to assist you!"
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Tell me about a specific product.",
+        "What are the features of this item?",
+        "Do you have reviews for this product?",
+        "Can I get more details on this item?"
+      ],
+      "responses": [
+        "Sure! Please specify the product you're interested in.",
+        "You can find detailed descriptions and reviews on our product pages."
+      ]
+    },
+    {
+      "tag": "product_suggestions",
+      "patterns": [
+        "Can you recommend something?",
+        "What do you suggest I buy?",
+        "What are your best-selling items?",
+        "I need help choosing a product."
+      ],
+      "responses": [
+        "Based on your interests, I recommend checking out our latest arrivals or best-sellers!",
+        "If you're looking for something specific, let me know and I'll suggest the best options!",
+        "Our top-selling items are a great place to start! Would you like to see them?"
+      ]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": [
+        "Show me the best-rated product",
+        "What is the cheapest option?",
+        "Recommend a high-rated product in phones",
+        "Can you suggest a budget kitchen item?",
+        "Show me top-rated toys",
+        "What is the most affordable headset?",
+        "Which phone has the best rating?",
+        "Suggest a cheap laptop",
+        "Recommend a high-rated company for electronics"
+      ],
+      "responses": [
+        "For electronics, I recommend checking out the highest-rated products from brands like [Samsung Electronics], [Panasonic], and [Apple].",
+        "The best-rated laptop we have is from [Apple] with excellent reviews! Would you like more details?",
+        "If you are looking for a budget-friendly phone, [Samsung] offers great options with good quality.",
+        "In the headphones category, [Apple] has the best-rated products, offering fantastic sound quality and durability!",
+        "For affordable plastic items, we recommend products from [Truke Buds] which are priced very reasonably.",
+        "Our top-rated kitchen items come from brands like [Kitchen tools kit] and [KitchenAid], known for their quality and customer satisfaction.",
+        "If you're shopping for toys, the most highly-rated ones are from [lego]. They offer both safety and quality.",
+        "Looking for affordable options? We have some great low-priced items from [Hot Wheels] that might interest you!",
+        "Our recommendation for a high-rated iPhone is from the company [Apple], offering excellent performance and user experience."
+      ]
+    },
+    {
+      "tag": "electronics_cheapest",
+      "patterns": [
+        "What is the cheapest phone?",
+        "Can you suggest an affordable laptop?",
+        "Show me the least expensive headset",
+        "What's the cheapest iPhone you have?"
+      ],
+      "responses": [
+        "For the most affordable phone, I recommend checking out [Nokia Button Phone] starting at just [1500].",
+        "Our cheapest laptop is from [Acer lower model] and offers reliable performance at a great price!",
+        "The least expensive headset available is from [Apple], priced at [59,900]. Would you like to learn more?",
+        "For an affordable iPhone option, I suggest [Apple iPhone SE 2022] which provides excellent features at a budget-friendly price."
+      ]
+    },
+    {
+      "tag": "electronics_highest_rated",
+      "patterns": [
+        "What is the best-rated phone?",
+        "Suggest the highest-rated laptop",
+        "Show me a top-rated headset",
+        "Which iPhone has the best rating?"
+      ],
+      "responses": [
+        "Our best-rated phone is from [Samsung] with a rating of [4.8]. It’s highly recommended by our customers!",
+        "The highest-rated laptop in our store is from [Asus], known for exceptional performance and quality.",
+        "For headsets, [one plus] holds the best rating, praised for sound clarity and durability.",
+        "The top-rated iPhone is [iPhone 16 Pro Max], with outstanding reviews for performance and camera quality."
+      ]
+    },
+    {
+      "tag": "plastic_items",
+      "patterns": [
+        "Suggest a cheap plastic item",
+        "What is the best plastic brand?",
+        "Show me high-rated plastic products",
+        "Suggest affordable plastic items"
+      ],
+      "responses": [
+        "For affordable plastic items, [plastic] has a range of products at great prices!",
+        "Our best-rated plastic items come from [Top Plastic Brand], highly regarded for durability and design.",
+        "If you're looking for budget-friendly plastic items, [Affordable Brand] has many options that customers love."
+      ]
+    },
+    {
+      "tag": "kitchen_items",
+      "patterns": [
+        "Suggest a cheap kitchen item",
+        "What is the best-rated kitchen item?",
+        "Show me affordable kitchen tools",
+        "Suggest a high-quality kitchen product"
+      ],
+      "responses": [
+        "Our highest-rated kitchen items come from [Top Kitchen Kit], known for durability and quality.",
+        "For affordable kitchen tools, I suggest [sangeetha steels] products which are budget-friendly and reliable.",
+        "If you’re looking for quality, [top kitchen kit] kitchen products are top-rated by our customers."
+      ]
+    },
+    {
+      "tag": "toys",
+      "patterns": [
+        "Suggest a high-rated toy",
+        "What is the best toy brand?",
+        "Show me affordable toys",
+        "Recommend top-rated toys"
+      ],
+      "responses": [
+        "For top-rated toys, we recommend brands like [legos] and [Hot wheels], known for safety and quality.",
+        "If you're looking for affordable options, [legos starter kit] has a great selection at reasonable prices."
+      ]
+    }
+  ]
+}
